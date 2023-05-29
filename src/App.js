@@ -1,25 +1,67 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import './App.css';lo
+// import Pakistan from './component/Pakistan';
+
+
+// function App() {
+//   return (
+//    <div>
+//     <Pakistan></Pakistan>
+//    </div>;
+//   );
+// }
+
+import { Input } from '@mui/material';
 import './App.css';
+import { Mini } from './component/Mini';
+// import SignIn from './component/SignIn';
+// import State from './component/State'
+
+//  function App() {
+//   return (
+//     <div>
+//     <Card
+//       name="Maha"
+//     />
+//     </div>
+//   );
+// }
+//     function App() {
+//       return (
+        
+//         <State>
+
+//         </State>
+        
+//       );
+//     }
+// export default App;
+
+// function App() {
+//   console.log(process.env.REACT_APP_New)
+//   return (
+    
+//     <Input>
+    
+//     </Input>
+
+   
+    
+//   );
+// }
+// export default App;
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Mini>
+
+    </Mini>
+   
+    
   );
 }
-
 export default App;
